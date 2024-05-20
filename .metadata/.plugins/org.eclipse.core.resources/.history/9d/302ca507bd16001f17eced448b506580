@@ -1,0 +1,27 @@
+//////////////////////////////////////////////////////////////////////////////
+// Praktikum Informatik 1 MMXXIV
+// Versuch 04: Einf�hrung Klasse
+//
+// Datei:  main.cpp
+// Inhalt: Hauptprogramm
+//////////////////////////////////////////////////////////////////////////////
+
+#include "Vektor.h"
+
+int main()
+{
+	Vektor vector1(1, 0, 0);
+	Vektor vector2(0, 1, 0);
+
+	vector1.ausgabe();
+	vector2.ausgabe();
+
+
+	Vektor vector3(1, 2, 3);
+	Vektor vector4(3, 4, 0);
+
+	std::cout << vector3.laenge() << std::endl; // Test Laenge()
+	std::cout << vector4.laenge() << std::endl;
+	return 0;
+
+}

@@ -1,7 +1,7 @@
 //
 // Praktikum Informatik 1 
 // 
-// Versuch 04: Einführung Klasse
+// Versuch 04: Einfï¿½hrung Klasse
 //
 // Datei:  Vektor.h
 // Inhalt: Headerdatei der Klasse Vektor
@@ -16,21 +16,21 @@
 
 class Vektor
 {
-   public:
-    Vektor(double x, double y, double z);
-    ~Vektor();
+public:
+	Vektor(double x, double y, double z);
+	~Vektor();
 
-    void ausgabe() const;
-    Vektor sub(const Vektor& input) const;
-    double laenge() const;
-    double skalarProd(const Vektor& input) const;
-    double winkel(const Vektor& input) const;
-    void rotiereUmZ(const double rad);
-    
-   private:
-    double x;
-    double y;
-    double z;
+	void ausgabe() const;
+	Vektor sub(const Vektor &input) const;
+	double laenge() const;
+	double skalarProd(const Vektor &input) const;
+	double winkel(const Vektor &input) const;
+	void rotiereUmZ(const double rad);
+
+private:
+	double x;
+	double y;
+	double z;
 
 };
 

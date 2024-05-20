@@ -1,7 +1,1 @@
-16:19:57 **** Rebuild of configuration Debug for project Versuch02Teil2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o fibonacci.o "..\\fibonacci.cpp" 
-g++ -o Versuch02Teil2.exe fibonacci.o 
-
-16:19:58 Build Finished. 0 errors, 0 warnings. (took 756ms)
-
+Info: Nothing to build for Versuch02Teil2

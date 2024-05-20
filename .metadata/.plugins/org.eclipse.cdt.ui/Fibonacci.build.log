@@ -1,7 +1,1 @@
-16:19:54 **** Rebuild of configuration Debug for project Fibonacci ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FibonacciRecursive.o "..\\FibonacciRecursive.cpp" 
-g++ -o Fibonacci.exe FibonacciRecursive.o 
-
-16:19:55 Build Finished. 0 errors, 0 warnings. (took 852ms)
-
+Info: Nothing to build for Fibonacci

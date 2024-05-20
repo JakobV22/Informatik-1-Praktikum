@@ -1,8 +1,9 @@
 LaunchTargetManager/configs/Versuch03\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Versuch04\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Versuch03 Debug
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Versuch03 Debug,org.eclipse.launchbar.core.descriptorType.default\:Versuch04 Debug
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Versuch03\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Versuch03\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

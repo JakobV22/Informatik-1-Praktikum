@@ -1,0 +1,7 @@
+16:19:56 **** Rebuild of configuration Debug for project Versuch01Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Strukturen.o "..\\Strukturen.cpp" 
+g++ -o Versuch01Teil2.exe Strukturen.o 
+
+16:19:57 Build Finished. 0 errors, 0 warnings. (took 1s.27ms)
+

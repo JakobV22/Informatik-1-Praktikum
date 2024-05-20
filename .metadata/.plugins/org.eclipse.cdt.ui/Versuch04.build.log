@@ -1,0 +1,8 @@
+16:19:59 **** Rebuild of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+
+16:20:00 Build Finished. 0 errors, 0 warnings. (took 1s.517ms)
+

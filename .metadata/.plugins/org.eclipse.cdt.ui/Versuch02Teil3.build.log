@@ -1,0 +1,7 @@
+16:19:58 **** Rebuild of configuration Debug for project Versuch02Teil3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Verschluesselung.o "..\\Verschluesselung.cpp" 
+g++ -o Versuch02Teil3.exe Verschluesselung.o 
+
+16:19:58 Build Finished. 0 errors, 0 warnings. (took 691ms)
+

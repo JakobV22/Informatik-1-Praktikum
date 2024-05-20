@@ -1,0 +1,33 @@
+16:17:21 **** Rebuild of configuration Debug for project Versuch03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o reversi.o "..\\reversi.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o reversiKI.o "..\\reversiKI.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -o Versuch03.exe reversi.o reversiKI.o test.o 
+Info: Nothing to build for Versuch03
+16:19:54 **** Rebuild of configuration Debug for project Fibonacci ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FibonacciRecursive.o "..\\FibonacciRecursive.cpp" 
+g++ -o Fibonacci.exe FibonacciRecursive.o 
+16:19:55 **** Rebuild of configuration Debug for project Versuch01Teil1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Variablen.o "..\\Variablen.cpp" 
+g++ -o Versuch01Teil1.exe Variablen.o 
+16:19:56 **** Rebuild of configuration Debug for project Versuch01Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Strukturen.o "..\\Strukturen.cpp" 
+g++ -o Versuch01Teil2.exe Strukturen.o 
+16:19:57 **** Rebuild of configuration Debug for project Versuch02Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o fibonacci.o "..\\fibonacci.cpp" 
+g++ -o Versuch02Teil2.exe fibonacci.o 
+16:19:58 **** Rebuild of configuration Debug for project Versuch02Teil3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Verschluesselung.o "..\\Verschluesselung.cpp" 
+g++ -o Versuch02Teil3.exe Verschluesselung.o 
+Info: Nothing to build for Versuch03
+16:19:59 **** Rebuild of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 

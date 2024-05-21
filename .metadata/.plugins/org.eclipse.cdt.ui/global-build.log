@@ -1266,3 +1266,1168 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp"
       |                ^~~~~~~~~
 g++ -o Versuch04.exe Vektor.o main.o 
 Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+13:57:26 **** Incremental Build of configuration Debug for project Versuch03 ****
+Info: Internal Builder is used for build
+g++ -o Versuch03.exe reversi.o reversiKI.o test.o 
+13:57:27 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:55:9: error: expected declaration before '}' token
+   55 |         }
+      |         ^
+..\main.cpp:57:9: error: expected unqualified-id before 'return'
+   57 |         return 0;
+      |         ^~~~~~
+..\main.cpp:59:1: error: expected declaration before '}' token
+   59 | }
+      | ^
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:00:04 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:02:18 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch04
+14:05:46 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:07:07 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:07:31 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:12:25 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:13:08 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:17:01 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:20:49 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+14:22:34 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:25:42 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+14:27:12 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch04
+14:27:37 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:28:08 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+14:28:46 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:33:12 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:21:9: error: expected ',' or ';' before 'for'
+   21 |         for (counter1 = 0; vektorRadial.winkel(vektorRadial.sub(vektorAuge)) != 90; counter1++){
+      |         ^~~
+..\main.cpp:21:78: warning: value computed is not used [-Wunused-value]
+   21 |         for (counter1 = 0; vektorRadial.winkel(vektorRadial.sub(vektorAuge)) != 90; counter1++){
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+..\main.cpp:21:95: error: expected ';' before ')' token
+   21 |         for (counter1 = 0; vektorRadial.winkel(vektorRadial.sub(vektorAuge)) != 90; counter1++){
+      |                                                                                               ^
+      |                                                                                               ;
+..\main.cpp:34:45: error: 'counter' was not declared in this scope; did you mean 'counter2'?
+   34 |         std::cout << "Anzahl Schritte: " << counter << std::endl;
+      |                                             ^~~~~~~
+      |                                             counter2
+..\main.cpp:19:14: warning: unused variable 'counter2' [-Wunused-variable]
+   19 |          int counter2;
+      |              ^~~~~~~~
+..\main.cpp:20:17: warning: unused variable 'angle' [-Wunused-variable]
+   20 |          double angle = M_PI / 18000 // 0,01 °
+      |                 ^~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:33:55 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:40:45: error: 'counter' was not declared in this scope; did you mean 'counter2'?
+   40 |         std::cout << "Anzahl Schritte: " << counter << std::endl;
+      |                                             ^~~~~~~
+      |                                             counter2
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:34:05 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:38:03 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:38:54 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:39:40 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:41:08 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+14:41:24 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:45:04 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:51:9: warning: "/*" within comment [-Wcomment]
+   51 |         /*
+      |          
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:46:14 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:54:58 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:40:93: error: no match for 'operator<<' (operand types are 'Vektor' and '<unresolved overloaded function type>')
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\bits\basic_string.h:48,
+                 from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\string_view:666:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)'
+  666 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\string_view:666:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6530:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6530 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6530:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:46,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\system_error:263:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  263 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\system_error:263:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:506:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:506:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:511:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:517:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:523:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:528:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:589:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:589:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\ostream:826,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\bits\ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:606:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:619:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:624:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:747:5: note: candidate: 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)'
+  747 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:747:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   couldn't deduce template parameter '_Tp'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:79:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)'
+   79 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:79:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:109:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)'
+  109 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:109:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:143:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)'
+  143 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:143:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:178:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)'
+  178 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:178:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:208:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)'
+  208 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:208:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:238:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)'
+  238 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:238:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:311:5: note: candidate: 'template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)'
+  311 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:311:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:363:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)'
+  363 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:363:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+14:55:54 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:40:93: error: no match for 'operator<<' (operand types are 'Vektor' and '<unresolved overloaded function type>')
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\bits\basic_string.h:48,
+                 from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\string_view:666:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)'
+  666 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\string_view:666:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6530:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6530 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6530:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:46,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\system_error:263:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'
+  263 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\system_error:263:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:506:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)'
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:506:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:511:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)'
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:511:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:517:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)'
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:517:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:523:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)'
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:523:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:528:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)'
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:528:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:589:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:589:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\ostream:826,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\bits\ostream.tcc:321:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)'
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:606:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)'
+  606 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:606:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:619:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)'
+  619 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:619:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:624:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)'
+  624 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:624:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<char, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Vektor.h:13,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\ostream:747:5: note: candidate: 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)'
+  747 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\ostream:747:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   couldn't deduce template parameter '_Tp'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:79:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)'
+   79 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:79:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:109:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)'
+  109 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:109:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:143:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)'
+  143 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:143:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:178:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)'
+  178 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:178:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:208:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)'
+  208 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:208:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:238:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)'
+  238 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:238:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:311:5: note: candidate: 'template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)'
+  311 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:311:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+In file included from ..\Vektor.h:15,
+                 from ..\main.cpp:9:
+c:\mingw64\include\c++\11.2.0\iomanip:363:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)'
+  363 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     ^~~~~~~~
+c:\mingw64\include\c++\11.2.0\iomanip:363:5: note:   template argument deduction/substitution failed:
+..\main.cpp:40:101: note:   'Vektor' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+   40 |                 std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge) << std::endl;
+      |                                                                                                     ^~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:56:17 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:56:22 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:57:27 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+14:58:12 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:04:35 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:34:82: error: expected ';' before ')' token
+   34 |                                 vektorRadial.winkel(vektorRadial.sub(vektorAuge))) >= 90;
+      |                                                                                  ^
+      |                                                                                  ;
+..\main.cpp:34:84: error: expected primary-expression before '>=' token
+   34 |                                 vektorRadial.winkel(vektorRadial.sub(vektorAuge))) >= 90;
+      |                                                                                    ^~
+..\main.cpp:35:43: error: expected ';' before ')' token
+   35 |                                 counter2++) // bis der Winkel zwischen Radialvektor und Sicht die 90 ° unterschreitet
+      |                                           ^
+      |                                           ;
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:04:56 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:34:82: error: expected ';' before ')' token
+   34 |                                 vektorRadial.winkel(vektorRadial.sub(vektorAuge))) >= 90;
+      |                                                                                  ^
+      |                                                                                  ;
+..\main.cpp:34:84: error: expected primary-expression before '>=' token
+   34 |                                 vektorRadial.winkel(vektorRadial.sub(vektorAuge))) >= 90;
+      |                                                                                    ^~
+..\main.cpp:35:44: error: expected primary-expression before ')' token
+   35 |                                 counter2++;) // bis der Winkel zwischen Radialvektor und Sicht die 90 ° unterschreitet
+      |                                            ^
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:05:45 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:09:45 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:11:48 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+15:12:23 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:16:09 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:16:15 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:16:56 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:21:18 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:22:47 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:22:51 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -o Versuch04.exe Vektor.o main.o 
+15:23:05 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+15:24:03 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:27:28: error: 'counter' was not declared in this scope; did you mean 'counter2'?
+   27 |         for (counter1 = 0; counter < 50;
+      |                            ^~~~~~~
+      |                            counter2
+15:24:12 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+15:24:50 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+15:25:08 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:26:33 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:32:06 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+15:34:33 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:40:54 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:42:15 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:42:19 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:44:31 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:21: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 int test = abs(angle);
+      |                     ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:46:09 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:47:14 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:49:18 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:51:25 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+15:51:50 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:52:12 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:52:24: warning: unused variable 'test' [-Wunused-variable]
+   52 |                 double test = abs(angle);
+      |                        ^~~~
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:54:35 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void horizontRechner(double, double, double)':
+..\main.cpp:28:9: error: expected initializer before 'while'
+   28 |         while(true)
+      |         ^~~~~
+..\main.cpp:22:13: warning: unused variable 'counter2' [-Wunused-variable]
+   22 |         int counter2;
+      |             ^~~~~~~~
+..\main.cpp:24:13: warning: unused variable 'richtungFaktor' [-Wunused-variable]
+   24 |         int richtungFaktor;
+      |             ^~~~~~~~~~~~~~
+..\main.cpp:25:16: warning: unused variable 'angle' [-Wunused-variable]
+   25 |         double angle = M_PI / 1800; // 0,1 °
+      |                ^~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:54:58 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Command canceled
+15:55:02 **** Rebuild of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:56:10 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:56:24 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+15:57:06 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+15:58:02 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+16:01:15 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch04
+16:01:37 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+16:01:47 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+16:02:23 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 

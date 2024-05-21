@@ -51,7 +51,7 @@ void horizontRechner(double erdradius, double plattform, double koerpergroesse)
 		std::cout << "Winkel: " << vektorRadial.winkel(vektorRadial.sub(vektorAuge)) << std::endl;
 		std::cout << "Schritte in diesem Durchlauf: " << counter2 << std::endl;
 
-		angle /= -10;							// Winkel verkleinern für höhere Präzision + umdrehen
+		angle /= -5;							// Winkel verkleinern für höhere Präzision + umdrehen
 		counter1 += counter2;				// Zähler übertragen
 	}										// erneute iterieren bis genügende Präzision
 

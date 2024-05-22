@@ -2453,3 +2453,17 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o Versuch04.exe Vektor.o main.o 
 Info: Nothing to build for Versuch04
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+08:24:30 **** Rebuild of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 

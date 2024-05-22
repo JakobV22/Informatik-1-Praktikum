@@ -2467,3 +2467,573 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp"
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
 g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+08:43:35 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+In file included from ..\ListenElement.cpp:5:
+..\ListenElement.h:22:38: error: expected ';' at end of member declaration
+   22 |     void setPrev(ListenElement* pPrev)                                  //
+      |                                      ^
+      |                                        ;
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+08:43:55 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::pushBack(Student)':
+..\Liste.cpp:22:67: error: no matching function for call to 'ListenElement::ListenElement(Student&, std::nullptr_t)'
+   22 |     ListenElement* neuesElement = new ListenElement(pData, nullptr);
+      |                                                                   ^
+In file included from ..\Liste.h:10,
+                 from ..\Liste.cpp:5:
+..\ListenElement.h:18:5: note: candidate: 'ListenElement::ListenElement(Student, ListenElement*, ListenElement*)'
+   18 |     ListenElement(Student pData, ListenElement* pNext, ListenElement* pPrev);           //
+      |     ^~~~~~~~~~~~~
+..\ListenElement.h:18:5: note:   candidate expects 3 arguments, 2 provided
+..\ListenElement.h:10:7: note: candidate: 'ListenElement::ListenElement(const ListenElement&)'
+   10 | class ListenElement
+      |       ^~~~~~~~~~~~~
+..\ListenElement.h:10:7: note:   candidate expects 1 argument, 2 provided
+..\ListenElement.h:10:7: note: candidate: 'ListenElement::ListenElement(ListenElement&&)'
+..\ListenElement.h:10:7: note:   candidate expects 1 argument, 2 provided
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+08:50:17 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:50:22 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+08:52:48 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:00:23 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:02:42 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+09:02:54 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:13:22 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:112:9: error: expected ',' or ';' before 'ListenElement'
+  112 |         ListenElement* cursor = front;
+      |         ^~~~~~~~~~~~~
+..\Liste.cpp:114:20: error: 'cursor' was not declared in this scope
+  114 |             while (cursor != nullptr)
+      |                    ^~~~~~
+..\Liste.cpp:117:34: error: 'prev' was not declared in this scope; did you mean 'std::prev'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                  ^~~~
+      |                                  std::prev
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:224:5: note: 'std::prev' declared here
+  224 |     prev(_BidirectionalIterator __x, typename
+      |     ^~~~
+..\Liste.cpp:117:41: error: 'next' was not declared in this scope; did you mean 'std::next'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                         ^~~~
+      |                                         std::next
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:213:5: note: 'std::next' declared here
+  213 |     next(_InputIterator __x, typename
+      |     ^~~~
+..\Liste.cpp:119:32: error: type '<type error>' argument given to 'delete', expected pointer
+  119 |                         delete cursor;
+      |                                ^~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:14:22 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:34: error: 'prev' was not declared in this scope; did you mean 'std::prev'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                  ^~~~
+      |                                  std::prev
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:224:5: note: 'std::prev' declared here
+  224 |     prev(_BidirectionalIterator __x, typename
+      |     ^~~~
+..\Liste.cpp:117:41: error: 'next' was not declared in this scope; did you mean 'std::next'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                         ^~~~
+      |                                         std::next
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:213:5: note: 'std::next' declared here
+  213 |     next(_InputIterator __x, typename
+      |     ^~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:16:51 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:34: error: 'prev' was not declared in this scope; did you mean 'std::prev'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                  ^~~~
+      |                                  std::prev
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:224:5: note: 'std::prev' declared here
+  224 |     prev(_BidirectionalIterator __x, typename
+      |     ^~~~
+..\Liste.cpp:117:41: error: 'next' was not declared in this scope; did you mean 'std::next'?
+  117 |                         cursor-->prev-->next = cursor-->next;
+      |                                         ^~~~
+      |                                         std::next
+In file included from c:\mingw64\include\c++\11.2.0\bits\stl_algobase.h:66,
+                 from c:\mingw64\include\c++\11.2.0\bits\char_traits.h:39,
+                 from c:\mingw64\include\c++\11.2.0\ios:40,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\Liste.h:8,
+                 from ..\Liste.cpp:5:
+c:\mingw64\include\c++\11.2.0\bits\stl_iterator_base_funcs.h:213:5: note: 'std::next' declared here
+  213 |     next(_InputIterator __x, typename
+      |     ^~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:18:00 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:34: error: 'getPrev' was not declared in this scope
+  117 |                         cursor-->getPrev()-->getNext() = cursor-->getNext();
+      |                                  ^~~~~~~
+..\Liste.cpp:117:46: error: 'getNext' was not declared in this scope
+  117 |                         cursor-->getPrev()-->getNext() = cursor-->getNext();
+      |                                              ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:22:59 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:34: error: 'getNext' was not declared in this scope
+  117 |                         cursor-->getNext()-->setPrev(cursor-->getPrev());
+      |                                  ^~~~~~~
+..\Liste.cpp:117:63: error: 'getPrev' was not declared in this scope
+  117 |                         cursor-->getNext()-->setPrev(cursor-->getPrev());
+      |                                                               ^~~~~~~
+..\Liste.cpp:117:46: error: 'setPrev' was not declared in this scope
+  117 |                         cursor-->getNext()-->setPrev(cursor-->getPrev());
+      |                                              ^~~~~~~
+..\Liste.cpp:118:46: error: 'setNext' was not declared in this scope
+  118 |                         cursor-->getPrev()-->setNext(cursor-->getNext());
+      |                                              ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:23:20 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:34: error: 'getNext' was not declared in this scope
+  117 |                         cursor-->getNext().setPrev(cursor-->getPrev());
+      |                                  ^~~~~~~
+..\Liste.cpp:117:61: error: 'getPrev' was not declared in this scope
+  117 |                         cursor-->getNext().setPrev(cursor-->getPrev());
+      |                                                             ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:24:41 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:24:46 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:27:47 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(Student)':
+..\Liste.cpp:117:33: error: 'class ListenElement' has no member named 'ausgabe'
+  117 |                         cursor->ausgabe();
+      |                                 ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:40:03 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp:109:6: error: no declaration matches 'void Liste::elementLoeschen(unsigned int)'
+  109 | void Liste::elementLoeschen(unsigned int wantedMatr)
+      |      ^~~~~
+In file included from ..\Liste.cpp:5:
+..\Liste.h:27:10: note: candidate is: 'void Liste::elementLoeschen(Student)'
+   27 |     void elementLoeschen(Student pData);                                //
+      |          ^~~~~~~~~~~~~~~
+..\Liste.h:13:7: note: 'class Liste' defined here
+   13 | class Liste
+      |       ^~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:41:04 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:41:48 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:45:18 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:45:22 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:58:55 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(unsigned int)':
+..\Liste.cpp:119:37: error: invalid use of member 'ListenElement* ListenElement::getPrev() const' (did you forget the '&' ?)
+  119 |                         if (cursor->getPrev != nullptr){                                                        //Normalfall
+      |                             ~~~~~~~~^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+09:59:21 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+10:03:43 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:03:53 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:28:02 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+..\Liste.cpp: In member function 'void Liste::elementLoeschen(unsigned int)':
+..\Liste.cpp:137:25: error: expected primary-expression before '}' token
+  137 |                         }
+      |                         ^
+..\Liste.cpp:135:39: error: expected ';' before '}' token
+  135 |                                 return
+      |                                       ^
+      |                                       ;
+  136 | 
+  137 |                         }
+      |                         ~              
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:28:34 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:34:27 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:34:31 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:37:19 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:37:24 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:48:17 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:48:36 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:48:40 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+11:50:23 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:50:28 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+12:01:25 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+12:06:14 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 

@@ -7,7 +7,8 @@
 /**
  * @brief Standardkonstruktor, der eine leere Liste erstellt
  */
-Liste::Liste(): front(nullptr), back(nullptr)
+Liste::Liste() :
+		front(nullptr), back(nullptr)
 {
 }
 
@@ -19,18 +20,37 @@ Liste::Liste(): front(nullptr), back(nullptr)
  */
 void Liste::pushBack(Student pData)
 {
-    ListenElement* neuesElement = new ListenElement(pData, nullptr);
+	ListenElement *neuesElement = new ListenElement(pData, nullptr, back); //next zeigt nullptr, prev zeigt vorheriges letztes Element
 
-    if (front == nullptr)                                       // Liste leer?
-    {
-        front = neuesElement;
-        back = neuesElement;
-    }
-    else
-    {
-        back->setNext(neuesElement);
-        back = neuesElement;
-    }
+	if (front == nullptr)                                       // Liste leer?
+	{
+		front = neuesElement;
+		back = neuesElement;
+	}
+	else
+	{
+		back->setNext(neuesElement);
+		back = neuesElement;
+	}
+}
+/**
+ * @brief FÃ¼gt Element am Anfang der Liste ein
+ * @param pData einzufÃ¼gendes Element, Zeiger auf Klasse Student
+ */
+void Liste::pushFront(Student pData)
+{
+	ListenElement *neuesElement = new ListenElement(pData, front, nullptr); //next zeigt nullptr, prev zeigt vorheriges letztes Element
+
+	if (front == nullptr)                                       // Liste leer?
+	{
+		front = neuesElement;
+		back = neuesElement;
+	}
+	else
+	{
+		front->setPrev(neuesElement);
+		front = neuesElement;
+	}
 }
 
 /**
@@ -40,19 +60,20 @@ void Liste::pushBack(Student pData)
  */
 void Liste::popFront()
 {
-    ListenElement* cursor = front;
+	ListenElement *cursor = front;
 
-    if (front == back)                                       // Liste enthält nur ein Listenelement
-    {
-        delete front;                                        // Listenelement löschen
-        front = nullptr;
-        back = nullptr;
-    }
-    else
-    {
-        front = front->getNext();
-        delete cursor;
-    }
+	if (front == back)                    // Liste enthï¿½lt nur ein Listenelement
+	{
+		delete front;                                   // Listenelement lï¿½schen
+		front = nullptr;
+		back = nullptr;
+	}
+	else
+	{
+		front = front->getNext();
+		front->setPrev(nullptr);
+		delete cursor;
+	}
 }
 
 /**
@@ -62,11 +83,11 @@ void Liste::popFront()
  */
 bool Liste::empty()
 {
-    if(front == nullptr)
-    {
-        return true;
-    }
-    return false;
+	if (front == nullptr)
+	{
+		return true;
+	}
+	return false;
 }
 
 /**
@@ -76,7 +97,7 @@ bool Liste::empty()
  */
 Student Liste::dataFront()
 {
-    return front->getData();
+	return front->getData();
 }
 
 /**
@@ -86,11 +107,77 @@ Student Liste::dataFront()
  */
 void Liste::ausgabeVorwaerts() const
 {
-    ListenElement* cursor = front;
+	ListenElement *cursor = front;
 
-    while (cursor != nullptr)
-    {
-    	cursor->getData().ausgabe();
-        cursor = cursor->getNext();
-    }
+	while (cursor != nullptr)
+	{
+		cursor->getData().ausgabe();
+		cursor = cursor->getNext();
+	}
+}
+/**
+ * @brief Ausgabe der Liste vom letzten bis zum ersten Elemenet
+ * @return void
+ */
+void Liste::ausgabeRueckwaerts() const
+{
+	ListenElement *cursor = back;
+
+	while (cursor != nullptr)
+	{
+		cursor->getData().ausgabe();
+		cursor = cursor->getPrev();
+	}
+
+}
+/**
+ * @brief Loescht Listenelement mit gesuchter Matrikelnummer
+ * @param wantedMatr gesuchte Matrikelnummer
+ */
+void Liste::elementLoeschen(unsigned int wantedMatr)
+{
+
+	ListenElement *cursor = front;
+
+	while (cursor != nullptr)
+	{
+		if (cursor->getData().getMatNr() == wantedMatr)
+		{																		// suche nach element mit richtiger Matr.nr
+			cursor->getData().ausgabe();
+
+
+			if (cursor->getPrev() == nullptr && cursor->getNext() != nullptr) //falls erstes Element
+			{
+				front = cursor->getNext();
+				cursor->getNext()->setPrev(cursor->getPrev());
+				delete cursor;
+				return;
+			}
+			else if (cursor->getNext() == nullptr					//falls letztes Element
+					&& cursor->getPrev() != nullptr)
+			{
+				back = cursor->getPrev();
+				cursor->getPrev()->setNext(cursor->getNext());
+				delete cursor;
+				return;
+
+			}
+			else if(cursor->getPrev() == nullptr && cursor->getNext() == nullptr){ //einziges element
+				front = nullptr;
+				back = nullptr;
+				delete cursor;
+				return;
+			}
+			else {													//Normmalfall
+				cursor->getPrev()->setNext(cursor->getNext());
+				cursor->getNext()->setPrev(cursor->getPrev());
+				return;
+			}
+
+		}
+		cursor = cursor->getNext();
+	}
+	std::cout << "Student wurde nicht gefunden" << std::endl;
+	return;
+
 }

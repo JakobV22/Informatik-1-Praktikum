@@ -2,6 +2,15 @@
 // Praktikum Informatik 1 MMXXIV
 //////////////////////////////////////////////////////////////////////////////
 
+/**
+ * Praktikum Informatik 1
+ *
+ *
+ * @file Student.h
+ *
+ * Die Definition der Klasse Student
+ */
+
 #ifndef STUDENT_H_
 #define STUDENT_H_
 

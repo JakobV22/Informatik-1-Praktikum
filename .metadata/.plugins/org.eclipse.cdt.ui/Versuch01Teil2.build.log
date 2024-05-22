@@ -1,7 +1,1 @@
-12:26:18 **** Incremental Build of configuration Debug for project Versuch01Teil2 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Strukturen.o "..\\Strukturen.cpp" 
-g++ -o Versuch01Teil2.exe Strukturen.o 
-
-12:26:19 Build Finished. 0 errors, 0 warnings. (took 919ms)
-
+Info: Nothing to build for Versuch01Teil2

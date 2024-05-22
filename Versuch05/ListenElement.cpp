@@ -2,6 +2,16 @@
 // Praktikum Informatik 1 MMXXIV
 //////////////////////////////////////////////////////////////////////////////
 
+/**
+ * Praktikum Informatik 1
+ *
+ *
+ * @file ListenElement.cpp
+ *
+ * Die Methoden der Klasse ListenElement
+
+ */
+
 #include "ListenElement.h"
 
 /**

@@ -1,9 +1,14 @@
-/** @mainpage
+/** @file main.cpp
+ * @mainpage
  *
  * Praktikum Informatik 1 MMXXIV <BR>
  * Versuch 5: Dynamische Datenstrukturen
  *
+ *
+
  */
+
+
 
 #include <iostream>
 #include <string>

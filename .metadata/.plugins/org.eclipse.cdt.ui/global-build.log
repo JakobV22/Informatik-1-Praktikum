@@ -3063,3 +3063,87 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -o Versuch04.exe Vektor.o main.o 
 Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+12:47:46 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+12:47:47 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+12:48:55 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+12:49:07 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+12:49:17 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+13:04:45 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:05:06 **** Incremental Build of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Versuch05

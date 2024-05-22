@@ -66,7 +66,7 @@ int main()
 
 	{
 		int iFeld[2] =									//5
-		{ 1, 2 };
+				{ 1, 2 };
 		std::cout << iFeld[0] << "\n" << iFeld[1] << std::endl;
 
 		int Spielfeld[2][3] =
@@ -80,7 +80,7 @@ int main()
 		const int iZweite = 1;
 		std::cout << iZweite << std::endl;
 	}
-	std::cout <<"\n nach Ende des Blockes: " << iZweite << std::endl;
+	std::cout << "\n nach Ende des Blockes: " << iZweite << std::endl;
 
 	int iName1 = (int) sVorname[0];
 	int iName2 = (int) sVorname[1];
@@ -90,7 +90,8 @@ int main()
 	int PosAlphabet1 = (iName1 - 64) % 32;
 	int PosAlphabet2 = (iName2 - 64) % 32;
 
-	std::cout << "\n Position der Buchstaben im deutschen Alphabet:\n" << PosAlphabet1 << "\n" << PosAlphabet2 << std::endl;
+	std::cout << "\n Position der Buchstaben im deutschen Alphabet:\n"
+			<< PosAlphabet1 << "\n" << PosAlphabet2 << std::endl;
 	return 0;
 
 }

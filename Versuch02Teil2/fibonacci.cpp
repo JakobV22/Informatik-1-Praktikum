@@ -32,8 +32,8 @@ int fibonacci(int n)
 int main()
 {
 	std::cout << " Fibonacci - Zahlen von 0 bis 12:" << std::endl;
-	for (int i = 0; i <= 47; i++)									//fib(47) > 2^31 -1, somit nicht als 32 bit int darstellbar
-	{																//fib(46) ist noch darstellbar
+	for (int i = 0; i <= 47; i++)//fib(47) > 2^31 -1, somit nicht als 32 bit int darstellbar
+	{											//fib(46) ist noch darstellbar
 		std::cout << "f(" << i << ") = " << fibonacci(i) << std::endl;
 	}
 	return 0;

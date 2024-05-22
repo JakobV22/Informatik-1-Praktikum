@@ -51,10 +51,9 @@ int main()
 			<< nKopieEinzeln.sNachname << ", " << nKopieEinzeln.iGeburtsjahr
 			<< ", " << nKopieEinzeln.iAlter << std::endl;
 
-
 	std::cout << "\nGesamt: " << nKopieGesamt.sVorname << ", "
-				<< nKopieGesamt.sNachname << ", " << nKopieGesamt.iGeburtsjahr
-				<< ", " << nKopieGesamt.iAlter << std::endl;
+			<< nKopieGesamt.sNachname << ", " << nKopieGesamt.iGeburtsjahr
+			<< ", " << nKopieGesamt.iAlter << std::endl;
 	return 0;
 
 }

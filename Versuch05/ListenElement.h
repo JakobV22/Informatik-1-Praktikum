@@ -10,19 +10,19 @@
 class ListenElement
 {
 private:
-    Student data;
-    ListenElement* next;
-    ListenElement* prev;  //von mir
+	Student data;
+	ListenElement *next;
+	ListenElement *prev;  //von mir
 
 public:
-    ListenElement(Student pData, ListenElement* pNext, ListenElement* pPrev);		//
+	ListenElement(Student pData, ListenElement *pNext, ListenElement *pPrev);//
 
-    void setData(Student pData);
-    void setNext(ListenElement* pNext);
-    void setPrev(ListenElement* pPrev);			//
-    Student getData() const;
-    ListenElement* getNext() const;
-    ListenElement* getPrev() const;					//
+	void setData(Student pData);
+	void setNext(ListenElement *pNext);
+	void setPrev(ListenElement *pPrev);			//
+	Student getData() const;
+	ListenElement* getNext() const;
+	ListenElement* getPrev() const;					//
 };
 
 #endif

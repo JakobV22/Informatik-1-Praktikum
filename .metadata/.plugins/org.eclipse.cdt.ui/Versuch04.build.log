@@ -1,1 +1,7 @@
-Info: Nothing to build for Versuch04
+12:26:22 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+
+12:26:24 Build Finished. 0 errors, 0 warnings. (took 1s.651ms)
+

@@ -176,7 +176,7 @@ int main()
 			studentenListe.pushFront(student);
 
 		}
-		break;
+			break;
 		case '0':
 			std::cout << "Das Programm wird nun beendet";
 			break;

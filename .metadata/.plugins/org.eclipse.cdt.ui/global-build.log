@@ -3037,3 +3037,29 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cp
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
 g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+Info: Nothing to build for Fibonacci
+12:26:17 **** Incremental Build of configuration Debug for project Versuch01Teil1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Variablen.o "..\\Variablen.cpp" 
+g++ -o Versuch01Teil1.exe Variablen.o 
+12:26:18 **** Incremental Build of configuration Debug for project Versuch01Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Strukturen.o "..\\Strukturen.cpp" 
+g++ -o Versuch01Teil2.exe Strukturen.o 
+12:26:19 **** Incremental Build of configuration Debug for project Versuch02Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o fibonacci.o "..\\fibonacci.cpp" 
+g++ -o Versuch02Teil2.exe fibonacci.o 
+12:26:20 **** Incremental Build of configuration Debug for project Versuch02Teil3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Verschluesselung.o "..\\Verschluesselung.cpp" 
+g++ -o Versuch02Teil3.exe Verschluesselung.o 
+12:26:21 **** Incremental Build of configuration Debug for project Versuch03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o reversi.o "..\\reversi.cpp" 
+g++ -o Versuch03.exe reversi.o reversiKI.o test.o 
+12:26:22 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+Info: Nothing to build for Versuch05

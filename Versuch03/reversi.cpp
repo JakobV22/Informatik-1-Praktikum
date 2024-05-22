@@ -350,7 +350,6 @@ bool menschlicherZug(int spielfeld[GROESSE_Y][GROESSE_X],
  * @param spielerTyp Mensch gegen Mensch, Mensch gegen Computer oder Computer gegen Computer
  */
 
-
 void spielen(const int spielerTyp[2])
 {
 

@@ -142,9 +142,8 @@ void Liste::elementLoeschen(unsigned int wantedMatr)
 	while (cursor != nullptr)
 	{
 		if (cursor->getData().getMatNr() == wantedMatr)
-		{																		// suche nach element mit richtiger Matr.nr
+		{							// suche nach element mit richtiger Matr.nr
 			cursor->getData().ausgabe();
-
 
 			if (cursor->getPrev() == nullptr && cursor->getNext() != nullptr) //falls erstes Element
 			{
@@ -153,8 +152,8 @@ void Liste::elementLoeschen(unsigned int wantedMatr)
 				delete cursor;
 				return;
 			}
-			else if (cursor->getNext() == nullptr					//falls letztes Element
-					&& cursor->getPrev() != nullptr)
+			else if (cursor->getNext() == nullptr		//falls letztes Element
+			&& cursor->getPrev() != nullptr)
 			{
 				back = cursor->getPrev();
 				cursor->getPrev()->setNext(cursor->getNext());
@@ -162,13 +161,16 @@ void Liste::elementLoeschen(unsigned int wantedMatr)
 				return;
 
 			}
-			else if(cursor->getPrev() == nullptr && cursor->getNext() == nullptr){ //einziges element
+			else if (cursor->getPrev() == nullptr
+					&& cursor->getNext() == nullptr)
+			{ //einziges element
 				front = nullptr;
 				back = nullptr;
 				delete cursor;
 				return;
 			}
-			else {													//Normmalfall
+			else
+			{													//Normmalfall
 				cursor->getPrev()->setNext(cursor->getNext());
 				cursor->getNext()->setPrev(cursor->getPrev());
 				return;

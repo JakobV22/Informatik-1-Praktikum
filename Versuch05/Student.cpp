@@ -13,15 +13,19 @@
  * @param geburtstag Geburtstag
  * @param adresse Adresse
  */
-Student::Student(unsigned int matNr, std::string name, std::string geburtstag, std::string adresse) :
-matNr(matNr), name(name), geburtstag(geburtstag), adresse(adresse)
-{ }
+Student::Student(unsigned int matNr, std::string name, std::string geburtstag,
+		std::string adresse) :
+		matNr(matNr), name(name), geburtstag(geburtstag), adresse(adresse)
+{
+}
 
 /**
  * @brief Standardkonstruktor, der einen leeren Studenten erstellt
  */
-Student::Student() : matNr(0), name(""), geburtstag(""), adresse("")
-{ }
+Student::Student() :
+		matNr(0), name(""), geburtstag(""), adresse("")
+{
+}
 
 /**
  * @brief Gibt die Matrikelnummer des Studenten zurueck
@@ -30,7 +34,7 @@ Student::Student() : matNr(0), name(""), geburtstag(""), adresse("")
  */
 unsigned int Student::getMatNr() const
 {
-    return matNr;
+	return matNr;
 }
 
 /**
@@ -40,7 +44,7 @@ unsigned int Student::getMatNr() const
  */
 std::string Student::getName() const
 {
-    return name;
+	return name;
 }
 
 /**
@@ -50,7 +54,7 @@ std::string Student::getName() const
  */
 std::string Student::getGeburtstag() const
 {
-    return geburtstag;
+	return geburtstag;
 }
 
 /**
@@ -60,7 +64,7 @@ std::string Student::getGeburtstag() const
  */
 std::string Student::getAdresse() const
 {
-    return adresse;
+	return adresse;
 }
 
 /**
@@ -68,7 +72,6 @@ std::string Student::getAdresse() const
  */
 void Student::ausgabe() const
 {
-    std::cout << name << ", MatNr. " << matNr << ", geb. am "
-              << geburtstag << ", wohnhaft in " << adresse
-              << std::endl;
+	std::cout << name << ", MatNr. " << matNr << ", geb. am " << geburtstag
+			<< ", wohnhaft in " << adresse << std::endl;
 }

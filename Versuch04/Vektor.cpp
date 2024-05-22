@@ -36,7 +36,7 @@ void Vektor::ausgabe() const
 double Vektor::laenge() const
 {
 	double length;
-	length = sqrt(x*x + y*y + z*z);
+	length = sqrt(x * x + y * y + z * z);
 	return length;
 }
 /**
@@ -74,8 +74,8 @@ double Vektor::skalarProd(const Vektor &input) const
  */
 double Vektor::winkel(const Vektor &input) const
 {
-	double angle = acos(skalarProd(input)/(laenge() * input.laenge()));
-	angle *= (180/M_PI);
+	double angle = acos(skalarProd(input) / (laenge() * input.laenge()));
+	angle *= (180 / M_PI);
 	return angle;
 }
 
@@ -86,7 +86,7 @@ double Vektor::winkel(const Vektor &input) const
 void Vektor::rotiereUmZ(const double rad)
 {
 	double newX = cos(rad) * x - sin(rad) * y;
-	double newY = sin(rad) * x +  cos(rad) * y;
+	double newY = sin(rad) * x + cos(rad) * y;
 	this->x = newX;
 	this->y = newY;
 

@@ -1,1 +1,2 @@
 /Versuch05/Versuch05.doxyfile
+/Versuch04/Versuch04.doxyfile

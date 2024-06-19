@@ -180,6 +180,10 @@ bool zugGueltig(const int spielfeld[GROESSE_Y][GROESSE_X],
 	{
 		return false;
 	}
+	if (aufSpielfeld(posX, posY) == false)
+	{
+		return false;
+	}
 
 	// Alle Richtungen ueberpruefen bis erster gueltiger Zug gefunden
 	for (int j = -1; j <= 1; j++)
@@ -192,7 +196,7 @@ bool zugGueltig(const int spielfeld[GROESSE_Y][GROESSE_X],
 				int y = posY + 2 * j;
 				for (int x = posX + 2 * i; aufSpielfeld(y, x); x += i)
 				{
-					if (spielfeld[y][x] == 0)// Falls leeres Feld: Zug ist nicht zwingend gültig
+					if (spielfeld[y][x] == 0 || aufSpielfeld(x, y) == false)// Falls leeres Feld oder ausßerhalb Spielfeld: Zug ist nicht zwingend gültig
 					{
 						break;
 					}

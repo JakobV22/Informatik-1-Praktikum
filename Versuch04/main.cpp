@@ -16,7 +16,7 @@
 void horizontRechner(double erdradius, double plattform, double koerpergroesse)
 {
 	std::cout << std::fixed;
-	std::cout << std::setprecision(15);
+	std::cout << std::setprecision(10);
 
 	Vektor vektorAuge(0, erdradius + plattform + koerpergroesse, 0);
 	Vektor vektorErdradius(0, erdradius, 0);

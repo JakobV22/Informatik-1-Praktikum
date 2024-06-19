@@ -87,7 +87,7 @@ void Vektor::rotiereUmZ(const double rad)
 {
 	double newX = cos(rad) * x - sin(rad) * y;
 	double newY = sin(rad) * x + cos(rad) * y;
-	this->x = newX;
-	this->y = newY;
+	x = newX;			//this-> nicht notwendig?
+	y = newY;
 
 }

@@ -179,7 +179,7 @@ void Liste::elementLoeschen(unsigned int wantedMatr)
 				return;
 			}
 			else
-			{													//Normmalfall
+			{													//Normalfall
 				cursor->getPrev()->setNext(cursor->getNext());
 				cursor->getNext()->setPrev(cursor->getPrev());
 				return;

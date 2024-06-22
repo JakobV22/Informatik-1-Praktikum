@@ -3523,3 +3523,922 @@ Info: Nothing to build for Versuch04
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
 g++ -o Versuch04.exe Vektor.o main.o 
+23:05:57 **** Rebuild of configuration Debug for project Fibonacci ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FibonacciRecursive.o "..\\FibonacciRecursive.cpp" 
+g++ -o Fibonacci.exe FibonacciRecursive.o 
+23:06:03 **** Rebuild of configuration Debug for project Versuch01Teil1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Variablen.o "..\\Variablen.cpp" 
+g++ -o Versuch01Teil1.exe Variablen.o 
+23:06:04 **** Rebuild of configuration Debug for project Versuch01Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Strukturen.o "..\\Strukturen.cpp" 
+g++ -o Versuch01Teil2.exe Strukturen.o 
+23:06:05 **** Rebuild of configuration Debug for project Versuch02Teil2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o fibonacci.o "..\\fibonacci.cpp" 
+g++ -o Versuch02Teil2.exe fibonacci.o 
+23:06:05 **** Rebuild of configuration Debug for project Versuch02Teil3 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Verschluesselung.o "..\\Verschluesselung.cpp" 
+g++ -o Versuch02Teil3.exe Verschluesselung.o 
+23:06:06 **** Rebuild of configuration Debug for project Versuch03 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o reversi.o "..\\reversi.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o reversiKI.o "..\\reversiKI.cpp" 
+g++ -o Versuch03.exe reversi.o reversiKI.o test.o 
+23:06:08 **** Incremental Build of configuration Debug for project Versuch04 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vektor.o "..\\Vektor.cpp" 
+g++ -o Versuch04.exe Vektor.o main.o 
+23:06:09 **** Rebuild of configuration Debug for project Versuch05 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Liste.o "..\\Liste.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o ListenElement.o "..\\ListenElement.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Versuch05.exe Liste.o ListenElement.o Student.o main.o 
+23:06:11 **** Rebuild of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:24: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   27 |         studentenListe.pushBack(student);
+      |                        ^~~~~~~~
+      |                        push_back
+..\main.cpp:29:24: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   29 |         studentenListe.pushBack(student);
+      |                        ^~~~~~~~
+      |                        push_back
+..\main.cpp:31:24: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   31 |         studentenListe.pushBack(student);
+      |                        ^~~~~~~~
+      |                        push_back
+..\main.cpp:33:24: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   33 |         studentenListe.pushBack(student);
+      |                        ^~~~~~~~
+      |                        push_back
+..\main.cpp:35:24: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   35 |         studentenListe.pushBack(student);
+      |                        ^~~~~~~~
+      |                        push_back
+..\main.cpp:74:36: error: 'class std::vector<Student>' has no member named 'pushBack'; did you mean 'push_back'?
+   74 |                     studentenListe.pushBack(student);
+      |                                    ^~~~~~~~
+      |                                    push_back
+..\main.cpp:83:50: error: 'class std::vector<Student>' has no member named 'dataFront'
+   83 |                         student = studentenListe.dataFront();
+      |                                                  ^~~~~~~~~
+..\main.cpp:86:40: error: 'class std::vector<Student>' has no member named 'popFront'
+   86 |                         studentenListe.popFront();
+      |                                        ^~~~~~~~
+..\main.cpp:100:36: error: 'class std::vector<Student>' has no member named 'ausgabeVorwaerts'
+  100 |                     studentenListe.ausgabeVorwaerts();
+      |                                    ^~~~~~~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+23:58:16 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:116:67: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  116 |                                         if (studentenVektor.size()>= position)
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:157:107: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  157 |                                                                                 if (studentenVektor.size()>= position)
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Student.o "..\\Student.cpp" 
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:00:52 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:116:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  116 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:161:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  161 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:00:56 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:03:49 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:117:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  117 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:162:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  162 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:03:52 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:06:05 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:117:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  117 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:162:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  162 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:06:10 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:24:38 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:60:29: error: 'abfrage' was not declared in this scope
+   60 |                 std::cin >> abfrage;
+      |                             ^~~~~~~
+..\main.cpp:98:63: error: no match for 'operator=' (operand types are 'Student' and 'std::vector<Student>::iterator')
+   98 |                                 student = studentenVektor.end();
+      |                                                               ^
+In file included from ..\main.cpp:16:
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(const Student&)'
+   19 | class Student
+      |       ^~~~~~~
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'const Student&'
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(Student&&)'
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'Student&&'
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:246:40: error: 'eingabe' was not declared in this scope
+  246 |                         std::getline ( eingabe , name );
+      |                                        ^~~~~~~
+..\main.cpp:246:50: error: 'name' was not declared in this scope; did you mean 'tzname'?
+  246 |                         std::getline ( eingabe , name );
+      |                                                  ^~~~
+      |                                                  tzname
+..\main.cpp:248:22: error: jump to case label
+  248 |                 case '0':
+      |                      ^~~
+..\main.cpp:240:41: note:   crosses initialization of 'std::ifstream inputDatei'
+  240 |                         std :: ifstream inputDatei (dateiName) ;
+      |                                         ^~~~~~~~~~
+..\main.cpp:236:37: note:   crosses initialization of 'std::string dateiName'
+  236 |                         std::string dateiName;
+      |                                     ^~~~~~~~~
+..\main.cpp:252:17: error: jump to case label
+  252 |                 default:
+      |                 ^~~~~~~
+..\main.cpp:240:41: note:   crosses initialization of 'std::ifstream inputDatei'
+  240 |                         std :: ifstream inputDatei (dateiName) ;
+      |                                         ^~~~~~~~~~
+..\main.cpp:236:37: note:   crosses initialization of 'std::string dateiName'
+  236 |                         std::string dateiName;
+      |                                     ^~~~~~~~~
+..\main.cpp:256:18: error: 'abfrage' was not declared in this scope
+  256 |         } while (abfrage != '0');
+      |                  ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:33:09 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:60:29: error: 'abfrage' was not declared in this scope
+   60 |                 std::cin >> abfrage;
+      |                             ^~~~~~~
+..\main.cpp:98:63: error: no match for 'operator=' (operand types are 'Student' and 'std::vector<Student>::iterator')
+   98 |                                 student = studentenVektor.end();
+      |                                                               ^
+In file included from ..\main.cpp:16:
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(const Student&)'
+   19 | class Student
+      |       ^~~~~~~
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'const Student&'
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(Student&&)'
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'Student&&'
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:274:18: error: 'abfrage' was not declared in this scope
+  274 |         } while (abfrage != '0');
+      |                  ^~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:33:47 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:98:63: error: no match for 'operator=' (operand types are 'Student' and 'std::vector<Student>::iterator')
+   98 |                                 student = studentenVektor.end();
+      |                                                               ^
+In file included from ..\main.cpp:16:
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(const Student&)'
+   19 | class Student
+      |       ^~~~~~~
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'const Student&'
+..\Student.h:19:7: note: candidate: 'Student& Student::operator=(Student&&)'
+..\Student.h:19:7: note:   no known conversion for argument 1 from 'std::vector<Student>::iterator' to 'Student&&'
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:35:49 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:98:65: error: 'std::vector<Student>::iterator' has no member named 'data'
+   98 |                                 student = studentenVektor.end().data();
+      |                                                                 ^~~~
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:37:37 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:38:59 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:101:67: error: expected primary-expression before ';' token
+  101 |                                 student = (studentenVektor.end())*;
+      |                                                                   ^
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:40:07 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:101:68: error: expected primary-expression before ';' token
+  101 |                                 student = (studentenVektor.back())*;
+      |                                                                    ^
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:40:20 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:41:59 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:48:57 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:49:00 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+00:50:06 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:101:55: error: base operand of '->' has non-pointer type '__gnu_cxx::__alloc_traits<std::allocator<Student>, Student>::value_type' {aka 'Student'}
+  101 |                                 studentenVektor.back()->ausgabe();
+      |                                                       ^~
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+00:50:20 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:119:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  119 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:164:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  164 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:04:18 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:277:58: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  277 |                                         for(int i = 0; i < studentenVektor.size(); i++){
+      |                                                        ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:06:38 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:11:22 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:11:29 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:14:26 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:14:29 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:16:26 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:16:29 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Versuch05
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:19:19 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Versuch05
+01:19:38 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+01:21:24 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+01:22:50 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:24:45 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:118:32: error: no matching function for call to 'getline(std::istream&, int&)'
+  118 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:56,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.tcc:1557:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)'
+ 1557 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.tcc:1557:5: note:   template argument deduction/substitution failed:
+..\main.cpp:118:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  118 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6570:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6570 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6570:5: note:   template argument deduction/substitution failed:
+..\main.cpp:118:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  118 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6578:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)'
+ 6578 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6578:5: note:   template argument deduction/substitution failed:
+..\main.cpp:118:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  118 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6585:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6585 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6585:5: note:   template argument deduction/substitution failed:
+..\main.cpp:118:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  118 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:165:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  165 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:284:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  284 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:25:23 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:119:32: error: no matching function for call to 'getline(std::istream&, int&)'
+  119 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:56,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.tcc:1557:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)'
+ 1557 |     getline(basic_istream<_CharT, _Traits>& __in,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.tcc:1557:5: note:   template argument deduction/substitution failed:
+..\main.cpp:119:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  119 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6570:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6570 |     getline(basic_istream<_CharT, _Traits>& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6570:5: note:   template argument deduction/substitution failed:
+..\main.cpp:119:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  119 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6578:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)'
+ 6578 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6578:5: note:   template argument deduction/substitution failed:
+..\main.cpp:119:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  119 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw64\include\c++\11.2.0\string:55,
+                 from c:\mingw64\include\c++\11.2.0\bits\locale_classes.h:40,
+                 from c:\mingw64\include\c++\11.2.0\bits\ios_base.h:41,
+                 from c:\mingw64\include\c++\11.2.0\ios:42,
+                 from c:\mingw64\include\c++\11.2.0\ostream:38,
+                 from c:\mingw64\include\c++\11.2.0\iostream:39,
+                 from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6585:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 6585 |     getline(basic_istream<_CharT, _Traits>&& __is,
+      |     ^~~~~~~
+c:\mingw64\include\c++\11.2.0\bits\basic_string.h:6585:5: note:   template argument deduction/substitution failed:
+..\main.cpp:119:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Allocator>' and 'int'
+  119 |                         getline(std::cin, position);
+      |                         ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+..\main.cpp:121:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  121 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:27:05 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:129:33: error: 'cin' was not declared in this scope; did you mean 'std::cin'?
+  129 |                                 cin.ignore('\n');
+      |                                 ^~~
+      |                                 std::cin
+In file included from ..\main.cpp:11:
+c:\mingw64\include\c++\11.2.0\iostream:60:18: note: 'std::cin' declared here
+   60 |   extern istream cin;           /// Linked to standard input
+      |                  ^~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:27:29 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:27:33 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:30:31 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:30:36 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -o Versuch06.exe Student.o main.o 
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Versuch06
+Info: Nothing to build for Fibonacci
+Info: Nothing to build for Versuch01Teil1
+Info: Nothing to build for Versuch01Teil2
+Info: Nothing to build for Versuch02Teil2
+Info: Nothing to build for Versuch02Teil3
+Info: Nothing to build for Versuch03
+Info: Nothing to build for Versuch04
+Info: Nothing to build for Versuch05
+01:35:02 **** Incremental Build of configuration Debug for project Versuch06 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:120:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  120 |                         if (studentenVektor.size() > position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+..\main.cpp:166:52: warning: comparison of integer expressions of different signedness: 'std::vector<Student>::size_type' {aka 'long long unsigned int'} and 'int' [-Wsign-compare]
+  166 |                         if (studentenVektor.size() >= position)
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+..\main.cpp:285:43: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<Student>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  285 |                         for (int i = 0; i < studentenVektor.size(); i++)
+      |                                         ~~^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -o Versuch06.exe Student.o main.o 
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Versuch06.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

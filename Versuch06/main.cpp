@@ -2,7 +2,7 @@
  * @mainpage
  *
  * Praktikum Informatik 1 MMXXIV <BR>
- * Versuch 5: Dynamische Datenstrukturen
+ * Versuch 6: Standard Template Library
  *
  *
 

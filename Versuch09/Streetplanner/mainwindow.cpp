@@ -1,8 +1,8 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "dialogneuestadt.h"
-
-
+#include "dijkstra.h"
+#include "dialogaddstreet.h"
 #include<QDebug>
 #include<QMessageBox>
 #include<QGraphicsView>
@@ -20,6 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->setScene(&scene);
     MapIoNrw* mapIoNrwPtr = new MapIoNrw();
     mapIoPtr = mapIoNrwPtr;
+
 }
 
 MainWindow::~MainWindow()
@@ -172,6 +173,8 @@ void MainWindow::on_checkBox_clicked()
         ui->pushButton_Test_Draw_Map->hide();
         ui->pushButton_Test_Draw_Street->hide();
         ui->pushButton_Test_Add_Street->hide();
+        ui->pushButton_test_abstract_map->hide();
+        ui->pushButton_test_dijkstra->hide();
     }
     else{
         ui->pushButton_teste_was->show();
@@ -179,6 +182,8 @@ void MainWindow::on_checkBox_clicked()
         ui->pushButton_Test_Draw_Map->show();
         ui->pushButton_Test_Draw_Street->show();
         ui->pushButton_Test_Add_Street->show();
+        ui->pushButton_test_abstract_map->show();
+        ui->pushButton_test_dijkstra->show();
     }
 }
 
@@ -192,6 +197,7 @@ void MainWindow::on_pushButton_add_city_clicked()
         City* dialogCityPtr = dialog.fetchCity();
         map.addCity(dialogCityPtr);
         map.draw(scene);
+        updateComboBoxes();
     }
 
 
@@ -202,6 +208,7 @@ void MainWindow::on_pushButton_fill_map_clicked()
 {
     mapIoPtr->fillMap(map);
     map.draw(scene);
+    updateComboBoxes();
 }
 
 void MainWindow::testAbstractMap()
@@ -296,3 +303,51 @@ void MainWindow::on_pushButton_test_abstract_map_clicked()
     testAbstractMap();
 }
 
+
+void MainWindow::on_pushButton_test_dijkstra_clicked()
+{
+
+    QVector<Street*> shortestPath = Dijkstra::search(map, "Düsseldorf", "Aachen");
+    for (int i = 0; i < shortestPath.size(); i++){
+        shortestPath[i]->drawRed(scene);
+    }
+
+}
+
+
+void MainWindow::on_pushButton_dijkstra_shortest_path_clicked()
+{
+    // QString name1 = ui->lineEdit_dijkstra_city_1->text();
+    // QString name2 = ui->lineEdit_dijkstra_city_2->text();
+    QString name1 = ui->comboBox_dijkstra_city_1->currentText();
+    QString name2 = ui->comboBox_dijkstra_city_2->currentText();
+    QVector<Street*> shortestPath = Dijkstra::search(map, name1, name2);
+    for (int i = 0; i < shortestPath.size(); i++){
+        shortestPath[i]->drawRed(scene);
+    }
+
+}
+
+
+void MainWindow::on_pushButton_add_street_clicked()
+{
+    DialogAddStreet dialog;
+    int a = dialog.exec();
+    qDebug() << a;
+    if(a==1){
+        Street* dialogStreetPtr = dialog.fetchStreet(map);
+        map.addStreet(dialogStreetPtr);
+        map.draw(scene);
+        updateComboBoxes();
+    }
+}
+
+void MainWindow::updateComboBoxes(){
+    ui->comboBox_dijkstra_city_1->clear();
+    ui->comboBox_dijkstra_city_2->clear();
+    QList <City*> cityList = map.getCityList();
+    for(int i =0; i< map.getCityList().size(); i++){
+        ui->comboBox_dijkstra_city_1->addItem(cityList[i]->getName());
+        ui->comboBox_dijkstra_city_2->addItem(cityList[i]->getName());
+}
+}

@@ -8,6 +8,7 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Qt/6.6.3/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.6.3/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qarraydata.h \
@@ -52,6 +53,7 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Qt/6.6.3/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.6.3/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qmap.h \
@@ -73,6 +75,7 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Qt/6.6.3/mingw_64/include/QtCore/qrandom.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.6.3/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.6.3/mingw_64/include/QtCore/qset.h \
@@ -145,14 +148,20 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Qt/6.6.3/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.6.3/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.3/mingw_64/include/QtGui/qtransform.h \
+  C:/Qt/6.6.3/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.6.3/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/QComboBox \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsScene \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsTextItem \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsView \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/QMessageBox \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qabstractslider.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qcombobox.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qframe.h \
@@ -161,8 +170,13 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qgraphicsview.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qmessagebox.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qsizepolicy.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qslider.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qstyle.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qstyleoption.h \
+  C:/Qt/6.6.3/mingw_64/include/QtWidgets/qtabbar.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.6.3/mingw_64/include/QtWidgets/qtwidgetsexports.h \

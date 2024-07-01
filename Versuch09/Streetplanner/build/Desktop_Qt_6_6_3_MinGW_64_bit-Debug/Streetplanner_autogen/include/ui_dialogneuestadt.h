@@ -57,6 +57,8 @@ public:
 
         formLayout->setWidget(2, QFormLayout::LabelRole, lineEdit_name_stadt);
 
+        QWidget::setTabOrder(lineEdit_name_stadt, lineEdit_xCoord);
+        QWidget::setTabOrder(lineEdit_xCoord, lineEdit_yCoord);
 
         retranslateUi(DialogNeueStadt);
         QObject::connect(buttonBox, &QDialogButtonBox::accepted, DialogNeueStadt, qOverload<>(&QDialog::accept));

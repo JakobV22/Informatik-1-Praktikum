@@ -29,6 +29,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         street.h street.cpp
         dialogneuestadt.h dialogneuestadt.cpp dialogneuestadt.ui
         mapio.cpp mapio.h mapionrw.cpp mapionrw.h
+        dijkstra.cpp dijkstra.h
+        dialogaddstreet.h dialogaddstreet.cpp dialogaddstreet.ui
 
     )
 # Define target properties for Android with Qt 6 as:

@@ -22,6 +22,7 @@ public:
     QVector<Street*> getStreetList(const City* city) const;
     City* getOppositeCity(const Street* street, const City* city) const;
     double getLength(const Street* street) const;
+    QList<City*> getCityList();
 protected:
     QList<City*> cityList;
     QList<Street*> streetList;

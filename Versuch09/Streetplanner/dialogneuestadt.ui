@@ -47,6 +47,11 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>lineEdit_name_stadt</tabstop>
+  <tabstop>lineEdit_xCoord</tabstop>
+  <tabstop>lineEdit_yCoord</tabstop>
+ </tabstops>
  <resources/>
  <connections>
   <connection>

@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QGraphicsScene>
+#include <QComboBox>
 #include "map.h"
 #include "mapio.h"
 #include "mapionrw.h"
@@ -22,6 +23,8 @@ public:
     ~MainWindow();
     QGraphicsScene scene;
     void testAbstractMap();
+    void updateComboBoxes();
+
 
 private slots:
     void on_pushButton_teste_was_clicked();
@@ -47,6 +50,12 @@ private slots:
     void on_pushButton_fill_map_clicked();
 
     void on_pushButton_test_abstract_map_clicked();
+
+    void on_pushButton_test_dijkstra_clicked();
+
+    void on_pushButton_dijkstra_shortest_path_clicked();
+
+    void on_pushButton_add_street_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -17,3 +17,13 @@ City* Street::getCity1() const{
 City* Street::getCity2() const{
     return city2;
 }
+void Street::drawRed(QGraphicsScene& scene) const{
+    int x1 = getCity1()->getX();
+    int y1 = getCity1()->getY();
+    int x2 = getCity2()->getX();
+    int y2 = getCity2()->getY();
+    QPen pen;
+    pen.setWidth(5);
+    pen.setColor(QColor(255,0,0));
+    scene.addLine(x1, y1, x2, y2,pen);
+}

@@ -4,9 +4,15 @@
 
 Map::Map() {}
 void Map::addCity(City* cityPtr){
-    cityList.append(cityPtr);
+    bool ok = true;
+    for (int i=0; i< cityList.size(); i++){
+        if(cityList[i]->getName() == cityPtr->getName()){
+            ok = false;
+        }
+    }
+    if(ok) cityList.append(cityPtr);
+    }
 
-}
 void Map::draw(QGraphicsScene& scene) const{
     for(int i = 0; i<cityList.size(); i++){
         cityList[i]->draw(scene);
@@ -70,4 +76,7 @@ double Map::getLength(const Street* street) const{
     double diffY = abs(y1-y2);
     double length = sqrt(pow(diffX,2) + pow(diffY,2));
     return length;
+}
+QList<City*> Map::getCityList(){
+    return cityList;
 }

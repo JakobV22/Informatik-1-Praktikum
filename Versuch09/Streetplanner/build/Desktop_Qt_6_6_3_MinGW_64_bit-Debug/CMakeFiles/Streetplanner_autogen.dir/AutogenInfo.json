@@ -269,9 +269,21 @@
 			null
 		],
 		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogaddstreet.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogaddstreet.cpp",
+			null
+		],
+		[
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.h",
 			"MU",
 			"EWIEGA46WW/moc_dialogneuestadt.cpp",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dijkstra.h",
+			"MU",
+			"EWIEGA46WW/moc_dijkstra.cpp",
 			null
 		],
 		[
@@ -386,7 +398,17 @@
 			null
 		],
 		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogaddstreet.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dijkstra.cpp",
 			"MU",
 			null
 		],

@@ -12,6 +12,7 @@ public:
     QString getName() const;
     int getX() const;
     int getY() const;
+
 protected:
     QString name;
     int xCoord;

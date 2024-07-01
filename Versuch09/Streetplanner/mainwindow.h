@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QGraphicsScene>
 #include "map.h"
+#include "mapio.h"
+#include "mapionrw.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,6 +21,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     QGraphicsScene scene;
+    void testAbstractMap();
 
 private slots:
     void on_pushButton_teste_was_clicked();
@@ -35,8 +38,19 @@ private slots:
 
     void on_pushButton_Test_Draw_Street_clicked();
 
+    void on_pushButton_Test_Add_Street_clicked();
+
+    void on_checkBox_clicked();
+
+    void on_pushButton_add_city_clicked();
+
+    void on_pushButton_fill_map_clicked();
+
+    void on_pushButton_test_abstract_map_clicked();
+
 private:
     Ui::MainWindow *ui;
     Map map;
+    MapIo* mapIoPtr;
 };
 #endif // MAINWINDOW_H

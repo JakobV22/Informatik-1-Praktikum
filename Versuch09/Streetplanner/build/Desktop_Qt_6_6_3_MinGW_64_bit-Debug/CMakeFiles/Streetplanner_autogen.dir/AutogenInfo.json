@@ -269,6 +269,12 @@
 			null
 		],
 		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogneuestadt.cpp",
+			null
+		],
+		[
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -278,6 +284,18 @@
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/map.h",
 			"MU",
 			"EWIEGA46WW/moc_map.cpp",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.h",
+			"MU",
+			"EWIEGA46WW/moc_mapio.cpp",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.h",
+			"MU",
+			"EWIEGA46WW/moc_mapionrw.cpp",
 			null
 		],
 		[
@@ -368,6 +386,11 @@
 			null
 		],
 		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/main.cpp",
 			"MU",
 			null
@@ -379,6 +402,16 @@
 		],
 		[
 			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/map.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.cpp",
 			"MU",
 			null
 		],

@@ -16,8 +16,15 @@ public:
     Map();
     void addCity(City* cityPtr);
     void draw(QGraphicsScene& scene) const;
+    bool addStreet(Street* streetPtr);
+    void debugCities() const;
+    City* findCity(const QString cityName)const;
+    QVector<Street*> getStreetList(const City* city) const;
+    City* getOppositeCity(const Street* street, const City* city) const;
+    double getLength(const Street* street) const;
 protected:
     QList<City*> cityList;
+    QList<Street*> streetList;
 };
 
 #endif // MAP_H

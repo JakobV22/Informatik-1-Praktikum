@@ -27,6 +27,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         map.h map.cpp
         abstractmap.cpp abstractmap.h
         street.h street.cpp
+        dialogneuestadt.h dialogneuestadt.cpp dialogneuestadt.ui
+        mapio.cpp mapio.h mapionrw.cpp mapionrw.h
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Streetplanner APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

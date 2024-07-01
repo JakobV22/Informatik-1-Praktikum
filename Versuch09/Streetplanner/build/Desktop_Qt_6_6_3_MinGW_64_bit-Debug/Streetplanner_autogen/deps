@@ -146,6 +146,7 @@ Streetplanner_autogen/timestamp: \
 	C:/Qt/6.6.3/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.6.3/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.6.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
 	C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsScene \
 	C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsTextItem \
 	C:/Qt/6.6.3/mingw_64/include/QtWidgets/QGraphicsView \
@@ -552,12 +553,19 @@ Streetplanner_autogen/timestamp: \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Streetplanner_autogen/moc_predefs.h \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/city.cpp \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/city.h \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.cpp \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.h \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/main.cpp \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mainwindow.cpp \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mainwindow.h \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/map.cpp \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/map.h \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.cpp \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.h \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.cpp \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.h \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/street.cpp \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/street.h \
+	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.ui \
 	C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

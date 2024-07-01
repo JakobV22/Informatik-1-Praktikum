@@ -379,4 +379,6 @@ C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/De
   C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/abstractmap.h \
   C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/city.h \
   C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/map.h \
+  C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.h \
+  C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.h \
   C:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/street.h

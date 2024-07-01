@@ -105,6 +105,30 @@ build CMakeFiles/Streetplanner.dir/street.cpp.obj: CXX_COMPILER__Streetplanner_u
   OBJECT_DIR = CMakeFiles\Streetplanner.dir
   OBJECT_FILE_DIR = CMakeFiles\Streetplanner.dir
 
+build CMakeFiles/Streetplanner.dir/dialogneuestadt.cpp.obj: CXX_COMPILER__Streetplanner_unscanned_Debug C$:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/dialogneuestadt.cpp || cmake_object_order_depends_target_Streetplanner
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Streetplanner.dir\dialogneuestadt.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Streetplanner_autogen/include -isystem C:/Qt/6.6.3/mingw_64/include/QtCore -isystem C:/Qt/6.6.3/mingw_64/include -isystem C:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Streetplanner.dir
+  OBJECT_FILE_DIR = CMakeFiles\Streetplanner.dir
+
+build CMakeFiles/Streetplanner.dir/mapio.cpp.obj: CXX_COMPILER__Streetplanner_unscanned_Debug C$:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapio.cpp || cmake_object_order_depends_target_Streetplanner
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Streetplanner.dir\mapio.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Streetplanner_autogen/include -isystem C:/Qt/6.6.3/mingw_64/include/QtCore -isystem C:/Qt/6.6.3/mingw_64/include -isystem C:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Streetplanner.dir
+  OBJECT_FILE_DIR = CMakeFiles\Streetplanner.dir
+
+build CMakeFiles/Streetplanner.dir/mapionrw.cpp.obj: CXX_COMPILER__Streetplanner_unscanned_Debug C$:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/mapionrw.cpp || cmake_object_order_depends_target_Streetplanner
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Streetplanner.dir\mapionrw.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/vogel/eclipse-workspace/InfoPraktikum1/Versuch09/Streetplanner/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/Streetplanner_autogen/include -isystem C:/Qt/6.6.3/mingw_64/include/QtCore -isystem C:/Qt/6.6.3/mingw_64/include -isystem C:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.3/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.3/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Streetplanner.dir
+  OBJECT_FILE_DIR = CMakeFiles\Streetplanner.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Streetplanner
@@ -113,7 +137,7 @@ build CMakeFiles/Streetplanner.dir/street.cpp.obj: CXX_COMPILER__Streetplanner_u
 #############################################
 # Link the executable Streetplanner.exe
 
-build Streetplanner.exe: CXX_EXECUTABLE_LINKER__Streetplanner_Debug CMakeFiles/Streetplanner.dir/Streetplanner_autogen/mocs_compilation.cpp.obj CMakeFiles/Streetplanner.dir/main.cpp.obj CMakeFiles/Streetplanner.dir/mainwindow.cpp.obj CMakeFiles/Streetplanner.dir/city.cpp.obj CMakeFiles/Streetplanner.dir/map.cpp.obj CMakeFiles/Streetplanner.dir/abstractmap.cpp.obj CMakeFiles/Streetplanner.dir/street.cpp.obj | C$:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.3/mingw_64/lib/libQt6EntryPoint.a || Streetplanner_autogen Streetplanner_autogen_timestamp_deps
+build Streetplanner.exe: CXX_EXECUTABLE_LINKER__Streetplanner_Debug CMakeFiles/Streetplanner.dir/Streetplanner_autogen/mocs_compilation.cpp.obj CMakeFiles/Streetplanner.dir/main.cpp.obj CMakeFiles/Streetplanner.dir/mainwindow.cpp.obj CMakeFiles/Streetplanner.dir/city.cpp.obj CMakeFiles/Streetplanner.dir/map.cpp.obj CMakeFiles/Streetplanner.dir/abstractmap.cpp.obj CMakeFiles/Streetplanner.dir/street.cpp.obj CMakeFiles/Streetplanner.dir/dialogneuestadt.cpp.obj CMakeFiles/Streetplanner.dir/mapio.cpp.obj CMakeFiles/Streetplanner.dir/mapionrw.cpp.obj | C$:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.3/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.3/mingw_64/lib/libQt6EntryPoint.a || Streetplanner_autogen Streetplanner_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.6.3/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.6.3/mingw_64/lib/libQt6Gui.a  C:/Qt/6.6.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.6.3/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -200,7 +224,7 @@ build Streetplanner_autogen_timestamp_deps: phony
 #############################################
 # Utility command for Streetplanner_autogen
 
-build Streetplanner_autogen: phony CMakeFiles/Streetplanner_autogen Streetplanner_autogen/include/ui_mainwindow.h Streetplanner_autogen/timestamp Streetplanner_autogen/mocs_compilation.cpp Streetplanner_autogen_timestamp_deps
+build Streetplanner_autogen: phony CMakeFiles/Streetplanner_autogen Streetplanner_autogen/include/ui_mainwindow.h Streetplanner_autogen/include/ui_dialogneuestadt.h Streetplanner_autogen/timestamp Streetplanner_autogen/mocs_compilation.cpp Streetplanner_autogen_timestamp_deps
 
 
 #############################################
@@ -217,7 +241,7 @@ build Streetplanner_autogen/timestamp Streetplanner_autogen/mocs_compilation.cpp
 #############################################
 # Phony custom command for CMakeFiles\Streetplanner_autogen
 
-build CMakeFiles/Streetplanner_autogen Streetplanner_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/Streetplanner_autogen ${cmake_ninja_workdir}Streetplanner_autogen/include/ui_mainwindow.h: phony Streetplanner_autogen/timestamp || Streetplanner_autogen_timestamp_deps
+build CMakeFiles/Streetplanner_autogen Streetplanner_autogen/include/ui_mainwindow.h Streetplanner_autogen/include/ui_dialogneuestadt.h | ${cmake_ninja_workdir}CMakeFiles/Streetplanner_autogen ${cmake_ninja_workdir}Streetplanner_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Streetplanner_autogen/include/ui_dialogneuestadt.h: phony Streetplanner_autogen/timestamp || Streetplanner_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

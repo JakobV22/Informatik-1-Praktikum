@@ -16,6 +16,7 @@ void City::draw(QGraphicsScene &scene) const{
 
     scene.addItem(textName);
 
+
 }
 QString City::getName() const{
     return name;

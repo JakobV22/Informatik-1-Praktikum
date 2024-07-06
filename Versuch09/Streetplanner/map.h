@@ -10,6 +10,11 @@
 #include <QRandomGenerator>
 #include <QGraphicsTextItem>
 
+
+/**
+ * @brief The Map class is used to store a city- and street-list containing every added Street- and City-object. It contains methods to add these objects, debug them, find specific
+ * objects by attributes, drwa every object onto the scene and to get certain protected attributes of this class
+ */
 class Map : public AbstractMap
 {
 public:

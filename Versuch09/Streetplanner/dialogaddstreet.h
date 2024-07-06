@@ -6,6 +6,10 @@
 #include "street.h"
 #include "map.h"
 
+
+/**
+ * @brief DialogAddStreet class is used to open a dialog that asks for information to create a new Street-object
+ */
 namespace Ui {
 class DialogAddStreet;
 }

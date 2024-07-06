@@ -4,6 +4,10 @@
 #include <QDialog>
 #include "city.h"
 
+
+/**
+ * @brief DialogNeueStadt class is used to open a dialog that asks for information to create a new City-object
+ */
 namespace Ui {
 class DialogNeueStadt;
 }

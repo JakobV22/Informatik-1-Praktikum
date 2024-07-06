@@ -2,6 +2,11 @@
 #define STREET_H
 #include "city.h"
 
+
+/**
+ * @brief The Street class contains 2 City-objects as attributes which the street connects. It contains methods to get these protected attributes and to draw a Street-object
+ * as a line in different styles
+ */
 class Street
 {
 public:

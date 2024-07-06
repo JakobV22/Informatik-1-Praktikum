@@ -31,6 +31,9 @@ std::ostream& operator<<(std::ostream &out, const Student &student)
 	return out;
 }
 
+/**
+ * @brief klassische push back funktion, fragt daten für neuen studenten ab
+ */
 void hintenHinzufuegen()
 {
 	unsigned int matNr = 0;
@@ -56,6 +59,9 @@ void hintenHinzufuegen()
 	studentenVektor.push_back(student);
 }
 
+/**
+ * @brief klassische pop back funktion
+ */
 void hintenEntfernen()
 {
 	if (studentenVektor.size() != 0)
@@ -70,7 +76,9 @@ void hintenEntfernen()
 		std::cout << "Der Vektor ist leer\n" << std::endl;
 	}
 }
-
+/**
+ * @brief klassische insert funktion, abfrage an welcher position eingefügt werden soll
+ */
 void hinzufuegenAnPosX()
 {
 	std::cout << "An welcher Stelle soll das Element eingefügt werden? (0 - "
@@ -115,6 +123,9 @@ void hinzufuegenAnPosX()
 	}
 }
 
+/**
+ * @brief löscht studenten an bestimmter position, fragt gewünschte position im terminal ab
+ */
 void loeschenAnPosX()
 {
 	std::cout << "An welcher Stelle soll das Element gelöscht werden? (0 - "
@@ -134,6 +145,9 @@ void loeschenAnPosX()
 	}
 }
 
+/**
+ * @brief gibt vektor vorwärts aus, nutzt überladenen << operator
+ */
 void vorwaertsAusgeben()
 {
 	if (studentenVektor.size() != 0)
@@ -152,6 +166,9 @@ void vorwaertsAusgeben()
 	}
 }
 
+/**
+ * @brief gibt vektor rückwärts aus, nutzt überladenen << operator
+ */
 void rueckwaertsAusgeben()
 {
 	if (studentenVektor.size() != 0)
@@ -169,7 +186,9 @@ void rueckwaertsAusgeben()
 		std::cout << "Der Vektor ist leer!\n\n";
 	}
 }
-
+/**
+ * @brief pop front funktion
+ */
 void vorneLoeschen()
 {
 	if (studentenVektor.size() != 0)
@@ -185,6 +204,9 @@ void vorneLoeschen()
 	}
 }
 
+/**
+ * @brief fragt nach datei aus der gelesen werden soll. Setzt eingelesene strings zu Student-objekt zusammen und pushed dieses back auf vektor
+ */
 void ausDateiLesen()
 {
 	std::cout << "Aus welcher Datei soll eingelesen werden?" << std::endl;
@@ -216,6 +238,10 @@ void ausDateiLesen()
 	studentenVektor.pop_back();
 }
 
+/**
+ *@brief fragt nach Datei in der gespeichert werden soll.Schreibt die einzelnen Daten jedes Stundet-objektes in dei Datei.
+ */
+
 void inDateiSpeichern()
 {
 	std::cout << "In welche Datei soll gespeichert werden?" << std::endl;
@@ -241,12 +267,19 @@ void inDateiSpeichern()
 	outputDatei.close();
 }
 
+/**
+ * @brief nutzt std::sort und überladene vergleichsoperatoren um vektor nach Matr Nr zu sortieren. Gibt sortierten vektor aus
+ */
 void Sortierung()
 {
 	std::sort(studentenVektor.begin(), studentenVektor.end());
 	vorwaertsAusgeben();
 }
 
+/**
+ * @brief fragt nach gesuchter Matr Nr. Geht Vektor durch und sucht mithilfe des überladenen == operators nach der Nr. std::find gibt iterator auf gesuchtes
+ * element oder auf vektor.end(). Im 1. Fall: element löschen, im 2. Fall: element nicht gefunden
+ */
 void findeElement()
 {
 	std::cout << "Welche Matrikelnummer suchen Sie?" << std::endl;
@@ -257,7 +290,8 @@ void findeElement()
 	std::cout << "gesuchte MatrNr: " << matrNr << std::endl;
 	Student gesucht = Student(matrNr, "xyz", "xyz", "xyz");
 
-	std::vector<Student>::iterator element = std::find(studentenVektor.begin(), studentenVektor.end(), gesucht); //auch "auto" möglich --> Iterator
+	std::vector<Student>::iterator element = std::find(studentenVektor.begin(),
+			studentenVektor.end(), gesucht); //auch "auto" möglich --> Iterator
 	if (*element == *(studentenVektor.end()))
 	{
 		std::cout << "Matrikelnummer wurde nicht gefunden" << std::endl;
@@ -314,8 +348,8 @@ int main()
 				<< "(8): Daten aus einer Datei einlesen" << std::endl
 				<< "(9): Daten in einer Datei sichern" << std::endl
 				<< "(S): Nach Matrikelnummern Sortieren" << std::endl
-				<< "(F): Student mit Matrikelnummer finden und löschen" << std::endl
-				<< "(0): Beenden" << std::endl;
+				<< "(F): Student mit Matrikelnummer finden und löschen"
+				<< std::endl << "(0): Beenden" << std::endl;
 
 		std::cin >> abfrage;
 		std::cin.ignore(10, '\n');

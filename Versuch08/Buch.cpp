@@ -7,24 +7,32 @@
 
 #include "Buch.h"
 
-
 #include <string>
 #include <iostream>
 
-Buch::Buch(std::string initTitel, std::string initAutor):
-Medium(initTitel), autor(initAutor)
+/**
+ *
+ * @brief Konstruktor mit Initialisierungsliste
+ */
+Buch::Buch(std::string initTitel, std::string initAutor) :
+		Medium(initTitel), autor(initAutor)
 {
 
 }
 
+//Destruktor
 Buch::~Buch()
 {
 	// TODO Auto-generated destructor stub
 }
-void Buch::ausgabe(std::ostream& out) const
+/**
+ * @brief printed informationen über Buch
+ * @param out für geerbte << op überladung
+ */
+void Buch::ausgabe(std::ostream &out) const
 {
-    Medium::ausgabe(out);
-    out << "Autor: " << autor << std::endl;
+	Medium::ausgabe(out);
+	out << "Autor: " << autor << std::endl;
 
 }
 

@@ -12,8 +12,10 @@
 #include <iostream>
 #include "Medium.h"
 
-
-class Buch : public Medium
+/**
+ * @brief Klasse Buch erbt von Klasse Medium
+ */
+class Buch: public Medium
 {
 public:
 	Buch();

@@ -10,11 +10,14 @@
 #include <string>
 #include <iostream>
 #include "Medium.h"
-
-class Magazin : public Medium
+/**
+ * @brief Klasse Magazin erbt von Klasse Medium
+ */
+class Magazin: public Medium
 {
 public:
-	Magazin(std::string initTitel, Datum initDatumAusgabe, std::string initSparte);
+	Magazin(std::string initTitel, Datum initDatumAusgabe,
+			std::string initSparte);
 	virtual ~Magazin();
 	void ausgabe(std::ostream&) const;
 	bool ausleihen(Person person, Datum ausleihdatum);

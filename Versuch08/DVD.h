@@ -11,11 +11,14 @@
 #include <iostream>
 #include "Medium.h"
 
-class DVD : public Medium
+/**
+ * @brief Klasse DVD erbst von Klasse Medium
+ */
+
+class DVD: public Medium
 {
 public:
-	DVD(std::string initTitel, int initAltersfreigabe, std::string
-			initGenre);
+	DVD(std::string initTitel, int initAltersfreigabe, std::string initGenre);
 	virtual ~DVD();
 	void ausgabe(std::ostream&) const;
 	bool ausleihen(Person person, Datum ausleihdatum);

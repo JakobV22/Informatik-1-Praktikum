@@ -108,6 +108,7 @@ int main()
 			}
 		}
 			break;
+
 			// Datenelement an Stelle x hinzufügen
 		case '3':
 		{
@@ -125,7 +126,8 @@ int main()
 				std::string adresse = "";
 
 				std::cout
-						<< "Bitte geben sie die Daten f�r den Studenten ein.\nName: " << std::endl;
+						<< "Bitte geben sie die Daten f�r den Studenten ein.\nName: "
+						<< std::endl;
 				std::cin.ignore(1, '\n');
 				getline(std::cin, name); // ganze Zeile einlesen inklusive aller Leerzeichen
 

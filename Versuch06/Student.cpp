@@ -10,8 +10,6 @@
  * Die Methoden der Klasse Student
  */
 
-
-
 #include <iostream>
 #include "Student.h"
 

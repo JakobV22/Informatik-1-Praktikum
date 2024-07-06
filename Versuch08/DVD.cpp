@@ -7,17 +7,27 @@
 
 #include "DVD.h"
 
+
+/**
+ *
+ * @brief Konstruktor mit Initialisierungsliste
+ */
 DVD::DVD(std::string initTitel, int initAltersfreigabe, std::string initGenre) :
 		Medium(initTitel), altersfreigabe(initAltersfreigabe), genre(initGenre)
 {
 	// TODO Auto-generated constructor stub
 
 }
-
+// Destruktor
 DVD::~DVD()
 {
 	// TODO Auto-generated destructor stub
 }
+
+/**
+ * @brief printed informationen über DVD
+ * @param out für geerbte << op überladung
+ */
 void DVD::ausgabe(std::ostream& out) const
 {
 	Medium::ausgabe(out);
@@ -25,6 +35,13 @@ void DVD::ausgabe(std::ostream& out) const
 	out << "Genre: " << genre << std::endl;
 
 }
+
+/**
+ * @brief überprüft altersfreigabe. Falls ok Medium::ausleihen funktion. Sonts fehlermeldung
+ * @param person für geburtstag
+ * @param ausleihdatum für aktuelles datum
+ * @return true wenn ausleihvorgang ok
+ */
 bool DVD::ausleihen(Person person, Datum ausleihdatum)
 {
 

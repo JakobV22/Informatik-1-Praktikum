@@ -10,8 +10,6 @@
  * Die Methoden der Klasse Student
  */
 
-
-
 #include <iostream>
 #include "Student.h"
 
@@ -80,7 +78,7 @@ std::string Student::getAdresse() const
 /**
  * @brief Gibt alle Daten des Studenten in einer Zeile aus
  */
-void Student::ausgabe(std::ostream& out) const
+void Student::ausgabe(std::ostream &out) const
 {
 	out << name << ", MatNr. " << matNr << ", geb. am " << geburtstag
 			<< ", wohnhaft in " << adresse << std::endl;
@@ -91,11 +89,14 @@ void Student::ausgabe(std::ostream& out) const
  * @return
  */
 
-bool Student::operator==(const Student& student ) const {
-	if (matNr == student.getMatNr()){
+bool Student::operator==(const Student &student) const
+{
+	if (matNr == student.getMatNr())
+	{
 		return true;
 	}
-	else return false;
+	else
+		return false;
 }
 /**
  * @brief Überladung des < operators für die Klasse student. Vergleicht Matrikelnummern.
@@ -103,11 +104,14 @@ bool Student::operator==(const Student& student ) const {
  * @return
  */
 
-bool Student::operator<(const Student& student ) const {
-	if (matNr < student.getMatNr()){
+bool Student::operator<(const Student &student) const
+{
+	if (matNr < student.getMatNr())
+	{
 		return true;
 	}
-	else return false;
+	else
+		return false;
 }
 /**
  * @brief Überladung des > operators für die Klasse student. Vergleicht Matrikelnummern.
@@ -115,9 +119,12 @@ bool Student::operator<(const Student& student ) const {
  * @return
  */
 
-bool Student::operator>(const Student& student ) const {
-	if (matNr > student.getMatNr()){
+bool Student::operator>(const Student &student) const
+{
+	if (matNr > student.getMatNr())
+	{
 		return true;
 	}
-	else return false;
+	else
+		return false;
 }

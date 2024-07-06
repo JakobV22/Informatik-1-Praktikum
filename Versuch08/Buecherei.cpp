@@ -48,6 +48,9 @@ void ausgelieheneAusgeben(std::vector<Medium*> &medien);
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/**
+ * @brief erstellt std::vector zur Speicherung von Medien. Fragt über Terminal nach erwünschten Operationen
+ */
 int main()
 {
 	// Vektor mit allen Medien der B�cherei
@@ -415,26 +418,30 @@ void mediumZurueckgeben(std::vector<Medium*> &medien)
 		std::cout << "Keine g�ltige ID!" << std::endl;
 	}
 }
-void ausgelieheneAusgeben(std::vector<Medium*> &medien){
+void ausgelieheneAusgeben(std::vector<Medium*> &medien)
+{
 	int counter = 0;
 	std::cout << "Ausgeliehene Medien:" << std::endl;
 
-		for (unsigned int index = 0; index < medien.size(); index++)
+	for (unsigned int index = 0; index < medien.size(); index++)
+	{
+		if (medien[index]->getStatus() == true)
 		{
-			if (medien[index]->getStatus() == true){
 			std::cout
 					<< "*************************************************************"
 					<< std::endl;
 			std::cout << *(medien[index]) << std::endl;
 			counter++;
-			}
-			else {
-				continue;
-			}
 		}
-		if (counter == 0){
-			std::cout << "Keine ausgeliehenen Medien vorhanden" << std::endl;
+		else
+		{
+			continue;
 		}
+	}
+	if (counter == 0)
+	{
+		std::cout << "Keine ausgeliehenen Medien vorhanden" << std::endl;
+	}
 }
 
 ////////////////////////////////////////////////////

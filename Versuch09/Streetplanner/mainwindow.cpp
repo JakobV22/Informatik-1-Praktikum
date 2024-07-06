@@ -113,15 +113,25 @@ void MainWindow::on_pushButton_Test_Draw_Street_clicked()
 {
     int x =  QRandomGenerator::global()->bounded(-100, 100);
     int y =  QRandomGenerator::global()->bounded(-100, 100);
-    City* c1 = new City("cityStreet1", x, y);
+    QString xStr;
+    QString yStr;
+    xStr.setNum(x);
+    yStr.setNum(y);
+    QString cityStreetName = "cityStreet1.";
+
+    City* c1 = new City(cityStreetName.append(xStr).append(yStr), x, y);
     x =  QRandomGenerator::global()->bounded(-100, 100);
     y =  QRandomGenerator::global()->bounded(-100, 100);
-    City* c2 = new City("cityStreet2", x, y);
+    xStr.setNum(x);
+    yStr.setNum(y);
+    cityStreetName = "cityStreet2.";
+    City* c2 = new City(cityStreetName.append(xStr).append(yStr), x, y);
     map.addCity(c1);
     map.addCity(c2);
     Street s1(c1, c2);
     map.draw(scene);
     s1.draw(scene);
+    updateComboBoxes();
     map.debugCities();
 }
 
@@ -161,6 +171,7 @@ void MainWindow::on_pushButton_Test_Add_Street_clicked()
 
     map.draw(scene);
     qDebug () << (c1==c2) << "erwarte false";
+    updateComboBoxes();
     map.debugCities();
 }
 
